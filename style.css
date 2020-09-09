@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: center;
+    color:rgba(0, 0, 0, 0, 0.9);
+}
+
+.wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    color:rgba(0, 0, 0, 0, 0.9);
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    margin: 50px 0 20px 0;
+    padding: 15px;
+    
+} 
+.modal-body{
+    width: 100%;
+    /* background: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgba(0, 0, 0, 0, 0.9);
+    border-radius: 5px;
+    
+}
+.information{
+    background: white;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    margin: 50px 0 20px 0;
+    padding: 15px;
+    /* display: none; */
+}
+.close-modal{
+    color: rgb(192, 7, 7);
+    display: flex;
+    font-weight: 400;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+/* add `hover effect to close-modal */
+
+h2{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+form{
+    width: 70%;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+input[type=text], button{
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 3px grey;
+}
+button{
+    border-radius: 5px;
+    width: 40%;
+    background: #ffffff;
+    color:rgba(0, 0, 0, 0, 1);
+    margin-top: 7px;
+    
+}
+ button:hover{
+     cursor: pointer;
+ }
+ /* modal section */
+ .information{
+     width: 40%;
+     border-radius: 15px; 
+     display:none;   
+ }
+ .abode{
+    font-family: 'Lobster', cursive;
+
+ }
+ p{
+     margin-bottom: 10px;
+ }
+ .latlong{
+     width: 50%;
+     /* background: burlywood; */
+     display: flex;
+     padding: 10px;
+     justify-content: space-between;
+ }
+ .latitude, .longitude{
+     margin:0;
+ }
+ 
